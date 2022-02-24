@@ -189,3 +189,4 @@ Mongo DB was used as the primary database with a custom authentication method th
 - Implement redis for caching stock information
 - Make the ui look cleaner
 - Use a real API to retrieve stock information
+- Visualize Stock Logging information in the Frontend
