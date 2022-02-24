@@ -11,7 +11,7 @@ Basic catalog system to manage stock information.
 ---
 ## Architecture
 
-The proposed architecture is based on a MERN Fullstack app.
+The proposed architecture is based on a MERN Fullstack app. And is also divided intro micro-services
 MERN meaning the following:
 - M: MongoDB for the database
 - E: Express
@@ -161,3 +161,11 @@ Mongo DB was used as the primary database with a custom authentication method th
 ![Main](docs/app3.PNG)
 - Admin dashboard for users looks as follows</br>
 ![Main](docs/app4.PNG)
+
+## Improvements
+
+- Use firebase authentication to register admin users
+- Running the app in docker sometimes causes bugs within the app
+- Implement redis for caching stock information
+- Make the ui look cleaner
+- Use a real API to retrieve stock information
