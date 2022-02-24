@@ -190,3 +190,9 @@ Mongo DB was used as the primary database with a custom authentication method th
 - Make the ui look cleaner
 - Use a real API to retrieve stock information
 - Visualize Stock Logging information in the Frontend
+
+
+## Current Known Bugs 
+
+- Sometimes when you click the sign in button, it wont redirect you until you refresh the page
+- when you click the dashboard button, the fisrt time it wont load, you need to refresh the page
