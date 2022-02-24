@@ -95,7 +95,7 @@ Where `Port` and `CONECTION_URL` come from a .env file
 
 Mongo DB was used as the primary database with a custom authentication method that uses JSON web tokens.
 
-In the future it may be viable to implement Firebase authentication and keep MongoDB just to store persistent data. 
+>In the future it may be viable to implement Firebase authentication and keep MongoDB just to store persistent data. 
 ---
 ## How to run
 
