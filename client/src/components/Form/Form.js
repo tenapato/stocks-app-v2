@@ -66,7 +66,7 @@ const Form = ({ currentId, setCurrentId }) => {
         <TextField name="categoty" variant="outlined" label="Low" fullWidth value={postData.low} onChange={(e) => setPostData({ ...postData, low: e.target.value })} />
         <TextField name="categoty" variant="outlined" label="Close" fullWidth value={postData.close} onChange={(e) => setPostData({ ...postData, close: e.target.value })} />
         <TextField name="categoty" variant="outlined" label="Avg Volume" fullWidth value={postData.avgVolume} onChange={(e) => setPostData({ ...postData, avgVolume: e.target.value })} />
-        <TextField name="categoty" variant="outlined" label="Mktcap" fullWidth value={postData.mktcap} onChange={(e) => setPostData({ ...postData, mktcap: e.target.value })} />
+        <TextField name="categoty" variant="outlined" label="Market Cap" fullWidth value={postData.mktcap} onChange={(e) => setPostData({ ...postData, mktcap: e.target.value })} />
 
         <div></div>
         <Button className={classes.buttonSubmit} variant="contained" color="primary" size="large" type="submit" fullWidth>Submit</Button>
