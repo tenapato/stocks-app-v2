@@ -12,7 +12,7 @@ Basic catalog system to manage stock information.
 ## Architecture
 
 - The proposed architecture is based on a MERN Fullstack app. 
-> It is also divided intro micro-services
+> It is also divided intro micro-services </br>
 MERN meaning the following:
 - M: MongoDB for the database
 - E: Express
