@@ -1,7 +1,7 @@
 import { START_LOADING, END_LOADING, FETCH_ALL, FETCH_POST, FETCH_BY_SEARCH, CREATE, UPDATE, DELETE } from '../constants/actionTypes';
 import * as api from '../api/index.js';
 
-export const getPost = (id) => async (dispatch) => {
+export const getStock = (id) => async (dispatch) => {
   try {
     dispatch({ type: START_LOADING });
 
@@ -44,7 +44,7 @@ export const createPost = (post, history) => async (dispatch) => {
 
     dispatch({ type: CREATE, payload: data });
 
-    history.push(`/posts/${data._id}`);
+    history.push(`/stocks/${data._id}`);
   } catch (error) {
     console.log(error);
   }

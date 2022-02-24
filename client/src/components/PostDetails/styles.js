@@ -21,6 +21,15 @@ export default makeStyles((theme) => ({
     margin: '10px',
     flex: 1,
   },
+  section2: {
+    display: 'flex',
+    alignItems: 'justify',
+    flexWrap: 'wrap',
+    flexDirection: 'row',
+    margin: '10px',
+    justifyContent: 'space-between',
+    
+  },
   imageSection: {
     marginLeft: '20px',
     [theme.breakpoints.down('sm')]: {

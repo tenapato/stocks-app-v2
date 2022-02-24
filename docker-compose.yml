@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+    server:
+      build:
+        context: ./server
+        dockerfile: Dockerfile
+      image: myapp-server
+      #container_name: myapp-node-server
+      command: npm start
+      volumes:
+        - ./server/:/server
+      environment:
+        - REDIS_URL=redis://cache
+    lb: #Load Balancer
+      image: dockercloud/haproxy
+      links:
+        - server
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
+      ports:
+        - 80:80
+        - 81:1936
+    client:
+      build:
+        context: ./client
+        dockerfile: Dockerfile
+      image: myapp-client
+      stdin_open: true
+      container_name: myapp-react-client
+      command: npm start
+      depends_on:
+        - server
+      volumes:
+        - ./client/src:/client/src
+      environment: 
+        - CHOKIDAR_USEPOLLING=true
+        #- REDIS_URL=redis://cache # Redis Lab
+        #- REDIS_URL= redis-13279.c62.us-east-1-4.ec2.cloud.redislabs.com:13279
+      ports:
+        - "3000:3000"
+    
+      
+
+volumes:
+  data-volume:
+  node_modules:
+  web-root:
+    driver: local
+    

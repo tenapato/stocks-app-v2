@@ -21,8 +21,8 @@ const Post = ({ post, setCurrentId }) => {
   
   const openPost = (e) => {
     // dispatch(getPost(post._id, history));
-
-    history.push(`/posts/${post._id}`);
+    //console.log(post._id);
+    history.push(`/stocks/${post._id}`);
   };
 
   return (
@@ -38,7 +38,7 @@ const Post = ({ post, setCurrentId }) => {
           <Typography variant="h6">{post.name}</Typography>
           
         </div>
-        {(user?.result?.googleId === post?.creator || user?.result?._id === post?.creator) && (
+        {(user?.result?.admin) && ( // if user is admin, can edit stock
         <div className={classes.overlay2} name="edit">
           <Button
             onClick={(e) => {

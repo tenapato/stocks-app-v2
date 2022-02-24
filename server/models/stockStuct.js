@@ -5,13 +5,12 @@ const stockSchema = mongoose.Schema({
     symbol: String,
     category: String,
     price: Number,
-    ticker: [{
-        high: Number,
-        low: Number,
-        close: Number,
-        volume: Number,
-        divident: Number,
-    }]
+    open: Number,
+    high: Number,
+    low: Number,
+    close: Number,
+    avgVolume: Number,
+    mktcap: Number,
     
 })
 
