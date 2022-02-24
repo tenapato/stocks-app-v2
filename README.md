@@ -17,7 +17,7 @@ MERN meaning the following:
 - NodeJS: Used to build the API
 ![Imagen_1](docs/architecture.png)
 
-* Note: The proyect folder structed was built using best practices for scalability in the future.
+* Note: The project folder structed was built using best practices for scalability in the future.
 ---
 ## API / Server / Database
 
