@@ -6,6 +6,8 @@ https://github.com/tenapato
 
 ## Description of the app
 Basic catalog system to manage stock information.
+![Main](docs/app1.PNG)
+>Refer to App specifications for more information about each component
 ---
 ## Architecture
 
@@ -137,11 +139,25 @@ Mongo DB was used as the primary database with a custom authentication method th
         
         docker-compose up --scale server=3
     > Where '3' is the number of servers to run
-9. Connect to the client: `http://localhost3000`
+9. Connect to the client: `http://localhost:3000`
 10. Tu turn of the containers
 
         docker-compose down
 > Note: in this test version, the admin user is `admin@gmail.com` , password: `admin`
 ---
 
-## Project Specification
+## App specifications
+
+- Each stock information is displayed in the following format:
+![Main](docs/app6.PNG)
+- You can click on them to display more information:
+![Main](docs/app2.PNG)
+- If you are not signed in as an admmin user, you cannot add stocks nor manage other users
+![Main](docs/app5.PNG)
+- When you are signed in, stock information will change a little bit
+![Main](docs/app7.PNG)
+> Buttons for deleting of updating the stock information will appear
+- Form input for stocks looks as follows:
+![Main](docs/app3.PNG)
+- Admin dashboard for users looks as follows
+![Main](docs/app4.PNG)
