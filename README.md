@@ -141,7 +141,7 @@ Mongo DB was used as the primary database with a custom authentication method th
 10. Tu turn of the containers
 
         docker-compose down
-> Nota: in this test version, the admin user is `admin@gmail.com` , password: `admin`
+> Note: in this test version, the admin user is `admin@gmail.com` , password: `admin`
 ---
 
 ## Project Specification
