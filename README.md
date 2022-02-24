@@ -152,7 +152,7 @@ Mongo DB was used as the primary database with a custom authentication method th
 ![Main](docs/app6.PNG)
 - You can click on them to display more information (This will log how many times a stock is clicked):</br>
 ![Main](docs/app2.PNG)
-- If you are not signed in as an admmin user, you cannot add stocks nor manage other users</br>
+- If you are not signed in as an admin user, you cannot add stocks nor manage other users</br>
 ![Main](docs/app5.PNG)
 - When you are signed in, stock information will change a little bit</br>
 ![Main](docs/app7.PNG)
