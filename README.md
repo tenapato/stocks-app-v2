@@ -53,6 +53,8 @@ The server architecture is as follows:
     - Routes:           # Folder containing api endpoint routes
 
 ```   
+
+> There is a procfile included so the server can be easily deployed to heroku
 ### Api Endpoints
 ![Imagen_2](docs/api_endpoints.png)
 
