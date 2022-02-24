@@ -24,7 +24,7 @@ MERN meaning the following:
 The server architecture is as follows:
 
 ```
-- / 			        # Proyect Root
+- / 			        # Project Root
     - Controllers       # Folder with functions to manage data from the database
     - Middleware        # Contains files to authenticate admin users
     - Models            # Folder containing database models for admin users and stocks
@@ -95,7 +95,7 @@ Where `Port` and `CONECTION_URL` come from a .env file
 Mongo DB was used as the primary database with a custom authentication method that uses JSON web tokens.
 
 In the future it may be viable to implement Firebase authentication and keep MongoDB just to store persistent data. 
-
+---
 ## How to run
 
 1. First open two terminals and cd into the client and server directories
@@ -106,7 +106,7 @@ In the future it may be viable to implement Firebase authentication and keep Mon
 
         npm start
 * Note: you will have to add your own mongodb cluster connection url in order to run this project. Refer to  `Sample db conection string`  section for more info
-
+---
 ## How to run using Docker
 
 1. Change into the porject directory
@@ -141,6 +141,6 @@ In the future it may be viable to implement Firebase authentication and keep Mon
 
         docker-compose down
 > Nota: in this test version, the admin user is `admin@gmail.com` , password: `admin`
-
+---
 
 ## Project Specification
