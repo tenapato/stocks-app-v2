@@ -9,6 +9,24 @@ Basic catalog system to manage stock information.
 ![Main](docs/app1.PNG)
 >Refer to App specifications for more information about each component
 ---
+
+## Folder Structure
+```
+- / 			        # Project Root
+    - Client            # UI application
+        - /src           # Folder containing all source files for the frontend
+            -/actions
+            -/api
+            -/components
+            -/constants
+            -/reducers
+    - Server            # API and server
+        -/Controllers      
+        -/Middleware        
+        -/Models            
+        -/Routes           
+
+```   
 ## Architecture
 
 - The proposed architecture is based on a MERN Fullstack app. 
