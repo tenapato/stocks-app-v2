@@ -31,6 +31,7 @@ The server architecture is as follows:
     - Routes:           # Folder containing api endpoint routes
 
 ```   
+### Api Endpoints
 ![Imagen_2](docs/api_endpoints.png)
 
 ### Sample structures
