@@ -148,16 +148,16 @@ Mongo DB was used as the primary database with a custom authentication method th
 
 ## App specifications
 
-- Each stock information is displayed in the following format:
+- Each stock information is displayed in the following format: </br>
 ![Main](docs/app6.PNG)
-- You can click on them to display more information:
+- You can click on them to display more information:</br>
 ![Main](docs/app2.PNG)
-- If you are not signed in as an admmin user, you cannot add stocks nor manage other users
+- If you are not signed in as an admmin user, you cannot add stocks nor manage other users</br>
 ![Main](docs/app5.PNG)
-- When you are signed in, stock information will change a little bit
+- When you are signed in, stock information will change a little bit</br>
 ![Main](docs/app7.PNG)
 > Buttons for deleting of updating the stock information will appear
-- Form input for stocks looks as follows:
+- Form input for stocks looks as follows:</br>
 ![Main](docs/app3.PNG)
-- Admin dashboard for users looks as follows
+- Admin dashboard for users looks as follows</br>
 ![Main](docs/app4.PNG)
