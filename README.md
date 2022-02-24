@@ -137,7 +137,7 @@ Mongo DB was used as the primary database with a custom authentication method th
         
         docker-compose up --scale server=3
     > Where '3' is the number of servers to run
-9. Conect to the client: `http://localhost3000`
+9. Connect to the client: `http://localhost3000`
 10. Tu turn of the containers
 
         docker-compose down
